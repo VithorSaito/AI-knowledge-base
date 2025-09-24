@@ -1,0 +1,28 @@
+{
+  "name": "learning_called",
+  "version": "1.0.0",
+  "description": "learning IA with typescript project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch ./index.ts"
+  },
+  "prisma": {
+    "schema": "./src/database/prisma/schema.prisma"
+  },
+  "author": "Vithor Mitsuyoshi Saito",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.16.2",
+    "@tsconfig/node22": "^22.0.2",
+    "dotenv": "^17.2.2",
+    "fastify": "^5.6.0",
+    "openai": "^5.22.0",
+    "zod": "^3.25.76"
+  }
+}
